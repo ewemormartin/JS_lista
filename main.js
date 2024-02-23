@@ -19,13 +19,3 @@ LISTAELEM.innerHTML+= `
 
 `
 
-function listaOsszeallitas(){
-    let txt=`<ul>`
-    for (let index = 0; index < LISTA.length; index++) {
-        txt += `<li>${SZEMELYLISTA[index].nev},${SZEMELYLISTA[index].tel}</li>`
-        
-    }
-    txt += "</ul>"
-    console.log(txt);
-    return txt
-}

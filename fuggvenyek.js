@@ -18,3 +18,10 @@ export function listaOsszeallitas(){
     console.log(txt);
     return txt
 }
+function tablazat(){
+    let txt = "<table>"
+    for (let index = 0; index < 4; index++) {
+        
+        
+    }
+}
