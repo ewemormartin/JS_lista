@@ -18,10 +18,15 @@ export function listaOsszeallitas(){
     console.log(txt);
     return txt
 }
-function tablazat(){
-    let txt = "<table>"
-    for (let index = 0; index < 4; index++) {
+export function tablazat(){
+    let txt = "<table><tr>"
+    for (let index = 0; index < SZEMELYLISTA.length; index++) {
+
+        txt += `<th>${SZEMELYLISTA[index].nev}</th>`
         
         
     }
+    txt += "</table></tr>"
+    console.log(txt);
+    return txt
 }

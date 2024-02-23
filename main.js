@@ -1,5 +1,5 @@
 import { SZEMELYLISTA } from "./adat.js";
-import { listaKir } from "./fuggvenyek.js";
+import { listaKir,tablazat } from "./fuggvenyek.js";
 
 console.log(SZEMELYLISTA[0].nev);
 
@@ -18,4 +18,5 @@ LISTAELEM.innerHTML+= `
                     </ul>
 
 `
+const TABLA = document.querySelector(".card")
 
